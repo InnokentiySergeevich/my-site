@@ -1,65 +1,165 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>Портфолио Иннокентий Юрковский</title>
-  </head>
-
-  <body>
-    <header class="page-header">
-      <div class="container">
-        <a class="header-email" href="mailto:innokentiyyrkovskiy@gmail.com">innokentiyyrkovskiy@gmail.com</a>
-        <a class="header-phone" href="tel:+79153005214">+79153005214</a>
-      </div>
-    </header>
-      
-    <section class="hero-image">
-      <div class="container">
-        <h1 class="heading">Кеха</h1>
-        <p>Junior верстальщик</p>
-      </div>
-    </section>
-      
-    <section class="intro">
-      <div class="container">
-        <h2 class="subheading">Давайте познакомимся</h2>
-          <figure class="user-image">
-            <img src="files/user.jpg" width="928" height="536" alt="Моя фотография">
-          </figure>
-        <h3>Пара слов о себе</h3>
-        <p>Я ничего не умею.</p>
-        <h3>Чем могу быть полезен</h3>
-        <p>Ничем.</p>
-        <div class="skills">
-          <h3>Мои навыки</h3>
-          <dl class="skills-list">
-            <dt class="skill-html">HTML</dt>
-            <dd class="level"><div style="width: 2%;">1%</div></dd>
-            <dt class="skill-css">CSS</dt>
-            <dd class="level"><div style="width: 1%;">1%</div></dd>
-          </dl>
-        </div>
-      </div>
-    </section>
-      
-    <section class="portfolio">
-      <div class="container">
-        <h2 class="subheading">Мои работы</h2>
-        <figure class="project-image">
-          <img src="files/project.jpg" width="928" height="536" alt="Изображение моего лучшего проекта">
-        </figure>
-        <h3>Мой лучший проект</h3>
-        <a class="button" href="source/project/index.html">Открыть страницу</a>
-      </div>
-    </section>
-
-    <footer class="page-footer">
-      <div class="container">
-        <a class="footer-email" href="mailto:innokentiyyrkovskiy@gmail.com">innokentiyyrkovskiy@gmail.com</a>
-        <a class="footer-phone" href="tel:+79153005214">+79153005214</a>
-      </div>
-    </footer>
-  </body>
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header class="top_header">
+		<div class="header_topline">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<button class="auth_buttons hidden-md hidden-lg hidden-sm"><i class="fa fa-user"></i></button>
+						<div class="top_links">
+							<a href="#">Вход</a> /
+							<a href="#">Регистрация</a>
+						</div>
+						<div class="soc_buttons">
+							<a href="#"><i class="fa fa-vk"></i></a>
+							<a href="#"><i class="fa fa-facebook-square"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-md-12">
+				<div class="row">
+					<a href="#" class="logo">kehaDesign</a>
+					<nav class="main_menu clearfix"><button class="main_menu_button hidden-md hidden-lg"><i class="fa fa-bars"></i></button>
+						<ul>
+							<li class="active"><a href="#">Главная</a></li>
+							<li><a href="#">Портфолио</a></li>
+							<li><a href="#">Отзывы</a></li>
+						</ul>
+						<div class="top_contacts"><i class="fa fa-phone"></i>8-800-225-55-22</div>
+					</nav>
+					<h1>Лучший верстальщик в мире</h1>
+					<div class="slider_container">
+						<div class="next_button"><i class="fa fa-angle-right"></i></div>
+						<div class="prev_button"><i class="fa fa-angle-left"></i></div>
+						<div class="carousel">
+							<div class="slider_item"><img src="https://webmustang.ru/wp-content/uploads/2019/07/avito-1140x640.jpg" alt="Картинка"></div>
+							<div class="slider_item"><img src="https://avatars.mds.yandex.net/get-kinopoisk-post-img/1345014/0eeae6d05faf0d0e7c8850d21c91ddc6/960x540" alt="Картинка"></div>
+							<div class="slider_item"><img src="https://24.kg/files/media/72/72201.png"></div>
+							<div class="slider_item"><img src="https://www.franshiza-info.ru/upload/iblock/b12/franshiza-kofeini-dunkin-donuts-foto-1.jpg" alt="Картинка"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="order">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="sell_descr">Самые лучшие сайты для вас</div>
+				</div>
+				<div class="col-md-5">
+					<div class="sell_right">
+						<a href="#callback" class="button fancybox">Заказать разработку</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main_content">
+		<div class="container">
+			<div class="col-md-12">
+				<div class="content-text">
+					<div class="blog_item">
+						<div class="row">
+							<div class="col-md-12">
+								<h3><a href="https://www.avito.ru/">Авито</a></h3>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="https://webmustang.ru/wp-content/uploads/2019/07/avito-1140x640.jpg" alt="Kartinka"></a>
+							</div>
+							<div class="col-md-8">Мой первый сайт, сделал на 2 неделе обучения за 2к и пару дней.</div>
+						</div>
+					</div>
+					<div class="blog_item">
+						<div class="row">
+							<div class="col-md-12">
+								<h3><a href="https://www.netflix.com/browse">Нетфликс</a></h3>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="https://avatars.mds.yandex.net/get-kinopoisk-post-img/1345014/0eeae6d05faf0d0e7c8850d21c91ddc6/960x540" alt="Kartinka"></a>
+							</div>
+							<div class="col-md-8">Сделан сразу после 1 сайта на коленке, для личного просмотра аниме. На удивление сайт зашел людям, выкупили за 5к рублей.</div>
+						</div>
+					</div>
+					<div class="blog_item">
+						<div class="row">
+							<div class="col-md-12">
+								<h3><a href="https://twitter.com/home?lang=ru">Твиттер</a></h3>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="https://24.kg/files/media/72/72201.png" alt="Kartinka"></a>
+							</div>
+							<div class="col-md-8">Всегда мечтал сделать свою социалку и при этом ограничить людей количеством символов в постах.</div>
+						</div>
+					</div>
+					<div class="blog_item">
+						<div class="row">
+							<div class="col-md-12">
+								<h3><a href="http://www.dunkindonutsmoscow.ru/">Dunkin’ Donuts</a></h3>
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img src="https://www.franshiza-info.ru/upload/iblock/b12/franshiza-kofeini-dunkin-donuts-foto-1.jpg" alt="Kartinka"></a>
+							</div>
+							<div class="col-md-8">Мой опус магнум. Самое великое, что когда либо делал.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="hidden">
+		<form id="callback" class="pop_form">
+			<h3>Заказать обрaтный звонок</h3>
+			<input type="text" name="name" placeholder="Ваше имя..." required>
+			<input type="text" name="phone" placeholder="Ваш телефон..." required>
+			<button class="button" type="submit">Заказать</button>
+		</form>
+	</div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
 </html>
