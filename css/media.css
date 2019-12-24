@@ -2,45 +2,47 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.main_menu ul {
-		background-color: #3797bf;
-		display: none;
-		position: absolute;
-		width: 100%;
- }
- .main_menu ul li {
-		display: block;
- }
-  .sell_right .button {
- 	margin: 15px auto;
- 	float: none;
- 	max-width: 250px;
- }
- .sell_descr {
- 	text-align: center;
- }
+	.personal_last_block {
+		margin-top: 35px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.top_links {
-		background-color: #585d61;
-		display: none;
-		margin-top: 15px;
-		padding: 14px;
-		position: absolute;
-		vertical-align: middle;
-		width: 100%;
- }
+	.resume_container .left,
+	.section_content .resume_container h3,
+	.resume_container .resume_icon {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.resume_container .left h3 {
+		margin-top: 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.top_wrapper .top_text h1 {
+		font-size: 2em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.main_footer {
+		text-align: left;
+	}
+	.main_footer .social_wrap {
+		float: left;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.main_footer .social_wrap ul {
+		padding-left: 0;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -63,18 +65,15 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
- .top_links {
- 		display: inline-block !important;
- }
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
- .main_menu ul {
-		display: block !important;
- }
 
- /* Large Devices, Wide Screens */
+}
+
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }
